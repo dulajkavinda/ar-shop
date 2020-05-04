@@ -1,20 +1,20 @@
 [
   {
     "id": "teddy-gift",
-    "obj": "teddy_bear/scene.gltf",
-    "patt": "pattern/pattern-bear.patt",
-    "objPosition": "0 0.3 0.4",
-    "objRotation": "-90 0 0",
-    "objScale": "0.05 0.05 0.05",
+    "obct": "teddy_bear/scene.gltf",
+    "pattern": "pattern/pattern-bear.patt",
+    "posi": "0 0.4 0.5",
+    "rotate": "-91 0 0",
+    "scle": "0.06 0.06 0.06",
     "txt": {
-      "company": "ToyMakers(PVT)LTD",
+      "cname": "ToyMakers(PVT)LTD",
       "slogan": "Wonderful Life!",
       "price": "4000/-"
     },
-    "txtW": "4",
-    "txtH": "5",
-    "txtPosition": "0 0.8 0.6",
-    "txtRotation": "-90 0 0",
-    "txtColor": "#FFF"
+    "textWidth": "4.5",
+    "textHeight": "6",
+    "tP": "0 0.9 0.7",
+    "tR": "-95 0 0",
+    "tColor": "#FFF"
   }
 ]

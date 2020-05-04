@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CTSE Assignment 02 - AR</title>
+    <title>CTSE - 2</title>
     <script
       type="text/javascript"
       src="jQuery-3.3.1/jquery-3.3.1.min.js"
@@ -26,7 +26,7 @@
                 element.id +
                 "'" +
                 " src='" +
-                element.obj +
+                element.obct +
                 "'" +
                 "></a-asset-item>";
               let entity =
@@ -35,43 +35,43 @@
                 element.id +
                 "'" +
                 " position='" +
-                element.objPosition +
+                element.posi +
                 "'" +
                 " rotation='" +
-                element.objRotation +
+                element.rotate +
                 "'" +
                 " scale='" +
-                element.objScale +
+                element.scle +
                 "'" +
                 " > </a-entity>";
               let text =
                 "<a-text" +
                 " value='\n\n" +
-                element.txt.company +
+                element.txt.cname +
                 "\n" +
                 element.txt.slogan +
                 "\n" +
                 element.txt.price +
                 "'" +
                 " height='" +
-                element.txtH +
+                element.textHeight +
                 "'" +
                 " width='" +
-                element.txtW +
+                element.textWidth +
                 "'" +
                 " rotation='" +
-                element.txtRotation +
+                element.tR +
                 "'" +
                 " color='" +
-                element.txtColor +
+                element.tColor +
                 "'" +
                 " position='" +
-                element.txtPosition +
+                element.tP +
                 "'" +
                 " weight='bold' align='center' ></a-text>";
               marker +=
                 "<a-marker type='pattern' url='" +
-                element.patt +
+                element.pattern +
                 "'>" +
                 entity +
                 text +
